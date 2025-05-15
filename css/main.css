@@ -38,8 +38,16 @@ body{
     position: relative;
 }
 
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
 h1, h2{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 32px;
     
@@ -48,6 +56,19 @@ h1, h2{
 .paragrafo{
     line-height: 150%;
     margin-bottom: 64px;
+}
+
+.paragrafo-clinica{
+    padding-bottom: 15px ;
+}
+
+.marcadores{
+    padding: 0px 0px 50px 0px;
+}
+
+.marcadores li{
+    padding-left: 15px;
+    margin-bottom: 15px;
 }
 
 .botao{
