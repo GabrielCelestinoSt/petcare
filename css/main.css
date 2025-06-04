@@ -100,3 +100,22 @@ h1, h2{
     padding-left: 15px;
     margin-bottom: 15px;
 }
+
+#farmacia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+
+
+
+.texto-farmacia{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+}
